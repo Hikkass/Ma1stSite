@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Play:700&display=swap');
+
+body {
+  background-image: url(pic/bgmain1.jpg);
+  background-size: cover;
+  height: 800px;
+  display: flex;
+}
+
+button {
+  height: 150px;
+  width: 300px; 
+  border-width: 0px;
+  font-size: 30px;
+  color: #499669;
+  border-radius: 20px;
+  margin: 10px;
+  margin-top: 20px;
+}
+.bt2 {
+background: #222222;
+}
+.bt1 { 
+background: #222222; 
+}
+
+div {
+  margin-top:auto;
+  margin: auto;
+}
+
+p, h1 {
+  font-family: 'Play', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #dddddd;
+}
+

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Play:700&display=swap');
+
+header {
+  height: 250px;
+  width: 80%;
+  background-image: url(pic/def_logo_svg.svg);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  margin-bottom: 10px;
+  background-position-y: 0px;
+}
+
+.btn {
+  margin: 10px;
+  padding: 5px;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+
+nav > ul {
+  list-style: none;
+  display: flex; 
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer {
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-bottom: 30px;
+}
+
+h1, ul {
+  font-family: 'Play', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.map {
+  margin: 0 20px 0 10px;
+}
+
+a:hover {
+  color:#5d8666;
+}
+
+article {
+  color: #dddddd;
+  font-family: 'Play', sans-serif;
+  padding: 30px;
+  background-color: #222222;
+}
+
+.grad {
+  height: 50px;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(34,34,34,1) 100%);
+}
+
+.grad_reverse {
+    height: 50px;
+  width: 100%;
+  background: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(34,34,34,1) 100%);
+}
+
+.goods {
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  margin-top: 20px;
+  border-style: solid;
+  border-color: #5d8666;
+  border-width: 2px;
+}
+.img {
+  height: 250px;
+  width: 250px;
+  margin: auto;
+  background-size: cover;
+  transition-duration: 1s;
+  border-style: solid;
+  border-color: #5d8666;
+  border-width: 2px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.ops {
+  height: 250px;
+  width: 70%;
+  margin: auto 10px;
+  border-style: solid;
+  border-color: #5d8666;
+  border-width: 2px;
+}
+
+.fr1 {
+  background-image: url(pic/forcs/1.png)
+}
+
+.fr2 {
+  background-image: url(pic/forcs/2.png)
+}
+
+.fr3 {
+  background-image: url(pic/forcs/3.png)
+}
+
+.img:hover {
+  transform: scale(1.5);
+}
+
+p {
+  margin: 20px;
+  color: #222222;
+}
+
+li {
+  margin-top: 10px;
+}
+
+nav {
+  margin: auto;
+  margin-top: 10px;
+}
+
+ul {
+  margin: 0px;
+}
