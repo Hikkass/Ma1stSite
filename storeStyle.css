@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Play:700&display=swap');
 
 header {
-  height: 250px;
+  height: 300px;
   width: 80%;
   background-image: url(pic/def_logo_svg.svg);
   display: flex;
